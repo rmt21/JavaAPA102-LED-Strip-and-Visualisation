@@ -7,4 +7,4 @@ Basically will control a strip of configurable apa102 leds and set them to any c
 
 Apa102 and raspi should really be powered seperately due to power draw and apa102 strip ideally should be connected via a 74AHCT125 level shifter, so that the led chips get the commands in 5v.
 
-Server will expect JSON format and along with specific commnds, these can be seen via looking at the code. I currently control this via a android application I have written, as I have these strips doted around my house.
+Server will expect JSON format and along with specific commands, these can be seen via looking at the code. I currently control this via a android application I have written, as I have these strips doted around my house.
